@@ -2666,3 +2666,32 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+/* styles.css */
+.contact-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  background-color: #25d366; /* Couleur de fond de WhatsApp */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button:hover {
+  background-color: #41df7b; /* Change la couleur d'arrière-plan au survol */
+  color: #fff; /* Change la couleur du texte au survol */
+}
+
+.whatsapp-button img {
+  width: 30px; /* Ajustez la taille du logo WhatsApp selon vos besoins */
+  margin-right: 10px;
+}
